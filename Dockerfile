@@ -49,5 +49,6 @@ RUN chown -R sdrtrunk:sdrtrunk /home/sdrtrunk
 
 ENV RDIO_SCANNER_APIKEY=
 ENV RDIO_SCANNER_URL=
+ENV EXTRA_JAVA_OPTS=
 
 CMD ["/bin/s6-svscan", "/etc/s6"]

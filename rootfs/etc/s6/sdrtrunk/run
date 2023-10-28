@@ -31,6 +31,7 @@ fi
 
 exec doas -u sdrtrunk -- \
     bin/java \
+        ${EXTRA_JAVA_OPTS} \
         -Djava.awt.headless=true \
         --add-exports="javafx.base/com.sun.javafx.event=ALL-UNNAMED" \
         --add-modules="jdk.incubator.vector" \
