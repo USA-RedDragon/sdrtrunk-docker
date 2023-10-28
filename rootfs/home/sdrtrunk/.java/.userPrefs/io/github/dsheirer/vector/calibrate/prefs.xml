@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<map MAP_XML_VERSION="1.0">
+  <entry key="AIRSPY_SAMPLE_CONVERTER - V1" value="SCALAR"/>
+  <entry key="AIRSPY_UNPACKED_INTERLEAVED_ITERATOR - V1" value="VECTOR_SIMD_256"/>
+  <entry key="AIRSPY_UNPACKED_ITERATOR - V1" value="VECTOR_SIMD_256"/>
+  <entry key="AM_DEMODULATOR - V1" value="SCALAR"/>
+  <entry key="DC_REMOVAL_REAL - V1" value="SCALAR"/>
+  <entry key="FILTER_FIR - V1" value="VECTOR_SIMD_PREFERRED"/>
+  <entry key="FILTER_HALF_BAND_REAL_11_TAP - V1" value="VECTOR_SIMD_128"/>
+  <entry key="FILTER_HALF_BAND_REAL_15_TAP - V1" value="VECTOR_SIMD_128"/>
+  <entry key="FILTER_HALF_BAND_REAL_23_TAP - V1" value="VECTOR_SIMD_128"/>
+  <entry key="FILTER_HALF_BAND_REAL_63_TAP - V1" value="VECTOR_SIMD_256"/>
+  <entry key="FILTER_HALF_BAND_REAL_DEFAULT - V1" value="VECTOR_SIMD_PREFERRED"/>
+  <entry key="FM_DEMODULATOR - V2" value="VECTOR_SIMD_256"/>
+  <entry key="GAIN_COMPLEX - V1" value="SCALAR"/>
+  <entry key="GAIN_CONTROL_COMPLEX - V1" value="SCALAR"/>
+  <entry key="MAGNITUDE - V1" value="SCALAR"/>
+  <entry key="MIXER_COMPLEX - V1" value="SCALAR"/>
+  <entry key="OSCILLATOR_COMPLEX - V1" value="VECTOR_SIMD_PREFERRED"/>
+  <entry key="OSCILLATOR_REAL - V1" value="VECTOR_SIMD_PREFERRED"/>
+  <entry key="WINDOW - V1" value="SCALAR"/>
+</map>

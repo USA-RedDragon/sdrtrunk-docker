@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Allow the sdrplay_apiService to start up first
+sleep 5
+
+cd /home/sdrtrunk/app
+
+exec doas -u sdrtrunk -- \
+    bin/java \
+        -Djava.awt.headless=true \
+        --add-exports="javafx.base/com.sun.javafx.event=ALL-UNNAMED" \
+        --add-modules="jdk.incubator.vector" \
+        --enable-preview \
+        --enable-native-access="ALL-UNNAMED" \
+        -Djava.library.path="/usr/local/lib" \
+        -classpath "lib/*" \
+        io.github.dsheirer.gui.SDRTrunk

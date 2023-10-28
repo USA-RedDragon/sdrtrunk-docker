@@ -1,0 +1,16 @@
+{
+  "tunerConfigurations" : [ {
+    "type" : "rsp1aTunerConfiguration",
+    "rfNotch" : false,
+    "rfDabNotch" : false,
+    "biasT" : false,
+    "sampleRate" : "RATE_10_000",
+    "gain" : 26,
+    "agcMode" : "ENABLE",
+    "frequency" : 860912500,
+    "uniqueID" : "RSP1A SER#2303007198",
+    "frequencyCorrection" : 0.0,
+    "autoPPMCorrectionEnabled" : true
+  } ],
+  "disabledTuners" : [ ]
+}

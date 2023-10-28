@@ -1,0 +1,3458 @@
+<playlist version="4">
+  <alias color="0" group="Bureau of Investigation" list="Local" name="OSBI Central">
+    <id type="talkgroup" protocol="APCO25" value="1233"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="Local"/>
+  </alias>
+  <alias color="0" group="Bureau of Investigation" list="Local" name="OSBI Tactical">
+    <id type="broadcastChannel" channel="Local"/>
+    <id type="talkgroup" protocol="APCO25" value="1239"/>
+  </alias>
+  <alias color="0" group="Bureau of Investigation" list="Local" name="OSBI Secure">
+    <id type="talkgroup" protocol="APCO25" value="1241"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="Local"/>
+  </alias>
+  <alias color="0" group="Cleveland County" list="Local" name="Cleveland Co SO ">
+    <id type="broadcastChannel" channel="Local"/>
+    <id type="talkgroup" protocol="APCO25" value="1681"/>
+  </alias>
+  <alias color="0" group="Cleveland County" list="Local" name="ClevelandCo Car2Car">
+    <id type="broadcastChannel" channel="Local"/>
+    <id type="talkgroup" protocol="APCO25" value="1683"/>
+  </alias>
+  <alias color="0" group="Cleveland County" list="Local" name="ClevelandCoCourt">
+    <id type="broadcastChannel" channel="Local"/>
+    <id type="talkgroup" protocol="APCO25" value="1685"/>
+  </alias>
+  <alias color="0" group="Cleveland County" list="Local" name="ClevelandCo SO D">
+    <id type="broadcastChannel" channel="Local"/>
+    <id type="talkgroup" protocol="APCO25" value="1687"/>
+  </alias>
+  <alias color="0" group="Cleveland County" list="Local" name="ClevelandCo Fire">
+    <id type="broadcastChannel" channel="Local"/>
+    <id type="talkgroup" protocol="APCO25" value="3019"/>
+  </alias>
+  <alias color="0" group="Cleveland County" list="Local" name="Fire Mutual Aid">
+    <id type="broadcastChannel" channel="Local"/>
+    <id type="talkgroup" protocol="APCO25" value="3235"/>
+  </alias>
+  <alias color="0" group="Cleveland County" list="Local" name="ClevelandCo Jail">
+    <id type="broadcastChannel" channel="Local"/>
+    <id type="talkgroup" protocol="APCO25" value="3263"/>
+  </alias>
+  <alias color="0" group="Federal" list="Local" name="US Marshals">
+    <id type="broadcastChannel" channel="Local"/>
+    <id type="talkgroup" protocol="APCO25" value="2986"/>
+  </alias>
+  <alias color="0" group="Moore" list="Local" name="Moore PD Invest">
+    <id type="broadcastChannel" channel="Local"/>
+    <id type="talkgroup" protocol="APCO25" value="903"/>
+  </alias>
+  <alias color="0" group="Moore" list="Local" name="Moore Police Tac">
+    <id type="broadcastChannel" channel="Local"/>
+    <id type="talkgroup" protocol="APCO25" value="905"/>
+  </alias>
+  <alias color="0" group="Moore" list="Local" name="Moore Police Tac">
+    <id type="broadcastChannel" channel="Local"/>
+    <id type="talkgroup" protocol="APCO25" value="907"/>
+  </alias>
+  <alias color="0" group="Moore" list="Local" name="Moore EMSSTAT">
+    <id type="broadcastChannel" channel="Local"/>
+    <id type="talkgroup" protocol="APCO25" value="1899"/>
+  </alias>
+  <alias color="0" group="Moore" list="Local" name="Moore Police">
+    <id type="broadcastChannel" channel="Local"/>
+    <id type="talkgroup" protocol="APCO25" value="3215"/>
+  </alias>
+  <alias color="0" group="Moore" list="Local" name="Moore Police 2">
+    <id type="broadcastChannel" channel="Local"/>
+    <id type="talkgroup" protocol="APCO25" value="3217"/>
+  </alias>
+  <alias color="0" group="Moore" list="Local" name="Moore Fire">
+    <id type="broadcastChannel" channel="Local"/>
+    <id type="talkgroup" protocol="APCO25" value="3231"/>
+  </alias>
+  <alias color="0" group="Moore" list="Local" name="Moore Fire 2">
+    <id type="broadcastChannel" channel="Local"/>
+    <id type="talkgroup" protocol="APCO25" value="3233"/>
+  </alias>
+  <alias color="0" group="Moore" list="Local" name="MooreFD Training">
+    <id type="broadcastChannel" channel="Local"/>
+    <id type="talkgroup" protocol="APCO25" value="3237"/>
+  </alias>
+  <alias color="0" group="Moore" list="Local" name="Moore Hospital">
+    <id type="broadcastChannel" channel="Local"/>
+    <id type="talkgroup" protocol="APCO25" value="3377"/>
+  </alias>
+  <alias color="0" group="Moore" list="Local" name="Moore EM">
+    <id type="broadcastChannel" channel="Local"/>
+    <id type="talkgroup" protocol="APCO25" value="3649"/>
+  </alias>
+  <alias color="0" group="Moore" list="Local" name="Moore EM 2">
+    <id type="broadcastChannel" channel="Local"/>
+    <id type="talkgroup" protocol="APCO25" value="3651"/>
+  </alias>
+  <alias color="0" group="Moore" list="Local" name="Moore EM 3">
+    <id type="broadcastChannel" channel="Local"/>
+    <id type="talkgroup" protocol="APCO25" value="3653"/>
+  </alias>
+  <alias color="0" list="Local" name="Other">
+    <id type="priority" priority="-1"/>
+    <id type="talkgroupRange" protocol="APCO25" min="0" max="65535"/>
+  </alias>
+  <alias color="0" group="Radio Maintenance" list="OKWIN" name="Radio Test 1">
+    <id type="talkgroup" protocol="APCO25" value="1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Radio Maintenance" list="OKWIN" name="Radio Test 2">
+    <id type="talkgroup" protocol="APCO25" value="2"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Radio Maintenance" list="OKWIN" name="Secure Conf">
+    <id type="talkgroup" protocol="APCO25" value="3"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Oklahoma County Hospitals" list="OKWIN" name="OU Med Transport">
+    <id type="talkgroup" protocol="APCO25" value="507"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="State Capitol" list="OKWIN" name="House Sergeants">
+    <id type="talkgroup" protocol="APCO25" value="513"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="State Capitol" list="OKWIN" name="Senate Sergeants">
+    <id type="talkgroup" protocol="APCO25" value="515"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Love County" list="OKWIN" name="Love County SO">
+    <id type="talkgroup" protocol="APCO25" value="541"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Murray County" list="OKWIN" name="Murray County SO">
+    <id type="talkgroup" protocol="APCO25" value="543"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Murray County" list="OKWIN" name="MurrayCounty SO2">
+    <id type="talkgroup" protocol="APCO25" value="545"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Marshall County" list="OKWIN" name="Marshall Co SO">
+    <id type="talkgroup" protocol="APCO25" value="549"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Pontotoc County" list="OKWIN" name="Pontotoc Co SO">
+    <id type="talkgroup" protocol="APCO25" value="645"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Rogers County" list="OKWIN" name="OologahTalalaEMS">
+    <id type="talkgroup" protocol="APCO25" value="649"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Oklahoma County Hospitals" list="OKWIN" name="VA Security">
+    <id type="talkgroup" protocol="APCO25" value="659"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tribal Law Enforcement" list="OKWIN" name="Chickasaw PD 3">
+    <id type="talkgroup" protocol="APCO25" value="661"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tribal Law Enforcement" list="OKWIN" name="Chickasaw EM">
+    <id type="talkgroup" protocol="APCO25" value="665"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Skiatook" list="OKWIN" name="Skiatook Fire">
+    <id type="talkgroup" protocol="APCO25" value="673"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="TPD Tactical ENC">
+    <id type="talkgroup" protocol="APCO25" value="699"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="TPD GilcreaseTlk">
+    <id type="talkgroup" protocol="APCO25" value="707"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="TPD GilcreaseTac">
+    <id type="talkgroup" protocol="APCO25" value="709"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="TPD MingoValTalk">
+    <id type="talkgroup" protocol="APCO25" value="713"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="TPD MingoVal Tac">
+    <id type="talkgroup" protocol="APCO25" value="715"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="TPD RiversideTlk">
+    <id type="talkgroup" protocol="APCO25" value="719"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="TPD RiversideTac">
+    <id type="talkgroup" protocol="APCO25" value="721"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="TPD Service">
+    <id type="talkgroup" protocol="APCO25" value="723"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="TPD Records K">
+    <id type="talkgroup" protocol="APCO25" value="725"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="TPD Records L">
+    <id type="talkgroup" protocol="APCO25" value="727"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="TPD Teletype">
+    <id type="talkgroup" protocol="APCO25" value="729"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="TPD Investgation">
+    <id type="talkgroup" protocol="APCO25" value="731"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="TPD Tactical ENC">
+    <id type="talkgroup" protocol="APCO25" value="733"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="TPD Tactical ENC">
+    <id type="talkgroup" protocol="APCO25" value="735"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="TPD Tactical ENC">
+    <id type="talkgroup" protocol="APCO25" value="745"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="TPD Tactical ENC">
+    <id type="talkgroup" protocol="APCO25" value="763"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="TPD Special Ops">
+    <id type="talkgroup" protocol="APCO25" value="765"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Sand Springs" list="OKWIN" name="SandSprings PD D">
+    <id type="talkgroup" protocol="APCO25" value="769"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Radio Maintenance" list="OKWIN" name="Radio Tech D">
+    <id type="talkgroup" protocol="APCO25" value="771"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Statewide" list="OKWIN" name="OHP Homeland Sec">
+    <id type="talkgroup" protocol="APCO25" value="773"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="EMSA EMS" list="OKWIN" name="EMSA Tulsa A">
+    <id type="talkgroup" protocol="APCO25" value="775"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="EMSA EMS" list="OKWIN" name="EMSA Tulsa B">
+    <id type="talkgroup" protocol="APCO25" value="777"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="EMSA EMS" list="OKWIN" name="EMSA ETAC 1">
+    <id type="talkgroup" protocol="APCO25" value="779"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="EMSA EMS" list="OKWIN" name="EMSA ETAC 2">
+    <id type="talkgroup" protocol="APCO25" value="781"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="EMS to Emergency Room" list="OKWIN" name="Hillcrest ER ">
+    <id type="talkgroup" protocol="APCO25" value="783"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="EMS to Emergency Room" list="OKWIN" name="Southcrest ER">
+    <id type="talkgroup" protocol="APCO25" value="785"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="EMS to Emergency Room" list="OKWIN" name="Saint Francis ER">
+    <id type="talkgroup" protocol="APCO25" value="787"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="EMS to Emergency Room" list="OKWIN" name="St John Med ER">
+    <id type="talkgroup" protocol="APCO25" value="789"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="EMS to Emergency Room" list="OKWIN" name="OSU MedCenter ER">
+    <id type="talkgroup" protocol="APCO25" value="791"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="EMS to Emergency Room" list="OKWIN" name="Broken Arrow ER">
+    <id type="talkgroup" protocol="APCO25" value="793"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="EMS to Emergency Room" list="OKWIN" name="HeartHospital ER">
+    <id type="talkgroup" protocol="APCO25" value="795"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="EMS to Emergency Room" list="OKWIN" name="StFrancisSouthER">
+    <id type="talkgroup" protocol="APCO25" value="797"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="EMSA EMS West" list="OKWIN" name="EMSA West A Disp">
+    <id type="talkgroup" protocol="APCO25" value="807"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="EMSA EMS West" list="OKWIN" name="EMSA West B Info">
+    <id type="talkgroup" protocol="APCO25" value="809"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="EMSA EMS West" list="OKWIN" name="EMSA West C Tac">
+    <id type="talkgroup" protocol="APCO25" value="811"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="EMSA EMS West" list="OKWIN" name="EMSA West D Tac">
+    <id type="talkgroup" protocol="APCO25" value="813"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Statewide" list="OKWIN" name="OHP ERT Tactical">
+    <id type="talkgroup" protocol="APCO25" value="839"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Pryor" list="OKWIN" name="PryorHospital ER">
+    <id type="talkgroup" protocol="APCO25" value="871"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Comanche County" list="OKWIN" name="LawtonHospital 1">
+    <id type="talkgroup" protocol="APCO25" value="873"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Comanche County" list="OKWIN" name="LawtonHospital 2">
+    <id type="talkgroup" protocol="APCO25" value="875"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Ottawa County" list="OKWIN" name="MiamiHospital ER">
+    <id type="talkgroup" protocol="APCO25" value="889"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Moore" list="OKWIN" name="Moore PD Invest">
+    <id type="talkgroup" protocol="APCO25" value="903"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Moore" list="OKWIN" name="Moore Police Tac">
+    <id type="talkgroup" protocol="APCO25" value="905"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Moore" list="OKWIN" name="Moore Police Tac">
+    <id type="talkgroup" protocol="APCO25" value="907"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Noble" list="OKWIN" name="Noble Fire B">
+    <id type="talkgroup" protocol="APCO25" value="953"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Noble" list="OKWIN" name="Noble Police B">
+    <id type="talkgroup" protocol="APCO25" value="957"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Creek County" list="OKWIN" name="Creek Co EMS B">
+    <id type="talkgroup" protocol="APCO25" value="985"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Grove" list="OKWIN" name="Grove Police Tac">
+    <id type="talkgroup" protocol="APCO25" value="1001"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Grove" list="OKWIN" name="Grove PD Cars">
+    <id type="talkgroup" protocol="APCO25" value="1003"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Ottawa County" list="OKWIN" name="Integirty EMS">
+    <id type="talkgroup" protocol="APCO25" value="1013"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="GRDA - Grand River Dam Authority" list="OKWIN" name="GRDA PD Secure">
+    <id type="talkgroup" protocol="APCO25" value="1015"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Fort Sill - US Army Lawton" list="OKWIN" name="Ft Sill Security">
+    <id type="talkgroup" protocol="APCO25" value="1017"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Fort Sill - US Army Lawton" list="OKWIN" name="Fort Sill MP B">
+    <id type="talkgroup" protocol="APCO25" value="1019"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Fort Sill - US Army Lawton" list="OKWIN" name="Fort Sill MP C">
+    <id type="talkgroup" protocol="APCO25" value="1021"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Fort Sill - US Army Lawton" list="OKWIN" name="Fort Sill Fire">
+    <id type="talkgroup" protocol="APCO25" value="1027"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Fort Sill - US Army Lawton" list="OKWIN" name="Fort Sill Fire B">
+    <id type="talkgroup" protocol="APCO25" value="1029"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Fort Sill - US Army Lawton" list="OKWIN" name="Fort Sill Fire C">
+    <id type="talkgroup" protocol="APCO25" value="1031"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Del City " list="OKWIN" name="DelCity Police B">
+    <id type="talkgroup" protocol="APCO25" value="1043"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Del City " list="OKWIN" name="DelCity Police C">
+    <id type="talkgroup" protocol="APCO25" value="1045"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Del City " list="OKWIN" name="DelCity Police D">
+    <id type="talkgroup" protocol="APCO25" value="1047"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Del City " list="OKWIN" name="Del City Fire B">
+    <id type="talkgroup" protocol="APCO25" value="1049"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Del City " list="OKWIN" name="Del City Fire C">
+    <id type="talkgroup" protocol="APCO25" value="1051"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Pryor" list="OKWIN" name="Pryor Police C">
+    <id type="talkgroup" protocol="APCO25" value="1055"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Pryor" list="OKWIN" name="Pryor Police B">
+    <id type="talkgroup" protocol="APCO25" value="1057"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Mayes County" list="OKWIN" name="Mayes County EM">
+    <id type="talkgroup" protocol="APCO25" value="1065"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Mayes County" list="OKWIN" name="Mayes Co Sheriff">
+    <id type="talkgroup" protocol="APCO25" value="1067"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Oklahoma County" list="OKWIN" name="Oklahoma Co EM 2">
+    <id type="talkgroup" protocol="APCO25" value="1073"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tribal Law Enforcement" list="OKWIN" name="Chickasaw PD 1">
+    <id type="talkgroup" protocol="APCO25" value="1075"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tribal Law Enforcement" list="OKWIN" name="Chickasaw PD 2">
+    <id type="talkgroup" protocol="APCO25" value="1077"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tribal Law Enforcement" list="OKWIN" name="Chickasaw PD Tac">
+    <id type="talkgroup" protocol="APCO25" value="1079"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="SSM Health St Anthony EMS" list="OKWIN" name="MWC EMS Tac 1">
+    <id type="talkgroup" protocol="APCO25" value="1081"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Rogers County" list="OKWIN" name="Limestone Fire">
+    <id type="talkgroup" protocol="APCO25" value="1083"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Rogers County" list="OKWIN" name="Limestone FD Tac">
+    <id type="talkgroup" protocol="APCO25" value="1085"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Purcell" list="OKWIN" name="Purcell Police 2">
+    <id type="talkgroup" protocol="APCO25" value="1087"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Purcell" list="OKWIN" name="Purcell Police 3">
+    <id type="talkgroup" protocol="APCO25" value="1089"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Purcell" list="OKWIN" name="Purcell Fire Tac">
+    <id type="talkgroup" protocol="APCO25" value="1091"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Garvin County" list="OKWIN" name="Wadley's EMS">
+    <id type="talkgroup" protocol="APCO25" value="1093"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="McClain County" list="OKWIN" name="Rosedale Fire">
+    <id type="talkgroup" protocol="APCO25" value="1101"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="McClain County" list="OKWIN" name="Wayne Fire">
+    <id type="talkgroup" protocol="APCO25" value="1103"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Lexington" list="OKWIN" name="Lexington PD Tac">
+    <id type="talkgroup" protocol="APCO25" value="1105"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Lexington" list="OKWIN" name="Lexington Fire">
+    <id type="talkgroup" protocol="APCO25" value="1109"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Lexington" list="OKWIN" name="Lexington Fire 2">
+    <id type="talkgroup" protocol="APCO25" value="1111"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Cleveland County" list="OKWIN" name="Cedar Country FD">
+    <id type="talkgroup" protocol="APCO25" value="1113"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Oklahoma Bureau of Narcotics and Dangerous Drugs" list="OKWIN" name="OBN Secure">
+    <id type="talkgroup" protocol="APCO25" value="1115"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Cleveland County" list="OKWIN" name="Cleveland Co DA">
+    <id type="talkgroup" protocol="APCO25" value="1123"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Department of Health" list="OKWIN" name="State Health B ">
+    <id type="talkgroup" protocol="APCO25" value="1135"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Department of Health" list="OKWIN" name="State Health Ctl">
+    <id type="talkgroup" protocol="APCO25" value="1139"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Muskogee" list="OKWIN" name="Muskogee Animal">
+    <id type="talkgroup" protocol="APCO25" value="1143"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Muskogee County " list="OKWIN" name="MuskogeCoSO2">
+    <id type="talkgroup" protocol="APCO25" value="1165"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Muskogee County " list="OKWIN" name="MuskogeeHospital">
+    <id type="talkgroup" protocol="APCO25" value="1185"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Muskogee County " list="OKWIN" name="Ft Gibson Police">
+    <id type="talkgroup" protocol="APCO25" value="1203"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Muskogee County " list="OKWIN" name="Ft Gibson Fire">
+    <id type="talkgroup" protocol="APCO25" value="1205"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Oklahoma Bureau of Narcotics and Dangerous Drugs" list="OKWIN" name="OBN Northeast">
+    <id type="talkgroup" protocol="APCO25" value="1229"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Oklahoma Bureau of Narcotics and Dangerous Drugs" list="OKWIN" name="OBN Central">
+    <id type="talkgroup" protocol="APCO25" value="1231"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Bureau of Investigation" list="OKWIN" name="OSBI Central">
+    <id type="talkgroup" protocol="APCO25" value="1233"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Bureau of Investigation" list="OKWIN" name="OSBI Tulsa">
+    <id type="talkgroup" protocol="APCO25" value="1237"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Bureau of Investigation" list="OKWIN" name="OSBI Tactical">
+    <id type="talkgroup" protocol="APCO25" value="1239"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Bureau of Investigation" list="OKWIN" name="OSBI Secure">
+    <id type="talkgroup" protocol="APCO25" value="1241"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Oklahoma National Guard" list="OKWIN" name="OK Nat Guard 1">
+    <id type="talkgroup" protocol="APCO25" value="1243"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Oklahoma National Guard" list="OKWIN" name="OK Nat Guard 2">
+    <id type="talkgroup" protocol="APCO25" value="1245"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Logan County" list="OKWIN" name="Logan Co SO B">
+    <id type="talkgroup" protocol="APCO25" value="1249"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Logan County" list="OKWIN" name="Logan Co Jail">
+    <id type="talkgroup" protocol="APCO25" value="1251"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Logan County" list="OKWIN" name="Logan Co SO Tac ">
+    <id type="talkgroup" protocol="APCO25" value="1255"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Payne County" list="OKWIN" name="OSU Safety">
+    <id type="talkgroup" protocol="APCO25" value="1261"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Colleges" list="OKWIN" name="OU Tulsa Police">
+    <id type="talkgroup" protocol="APCO25" value="1269"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Payne County" list="OKWIN" name="Stillwater EM">
+    <id type="talkgroup" protocol="APCO25" value="1271"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="McClain County" list="OKWIN" name="McClain Co Fire">
+    <id type="talkgroup" protocol="APCO25" value="1279"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County" list="OKWIN" name="Tulsa Co SO Enc1">
+    <id type="talkgroup" protocol="APCO25" value="1331"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County" list="OKWIN" name="Tulsa Co SO Enc2">
+    <id type="talkgroup" protocol="APCO25" value="1333"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tribal Law Enforcement" list="OKWIN" name="ChickasawCasino$">
+    <id type="talkgroup" protocol="APCO25" value="1343"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Lincoln County" list="OKWIN" name="Lincoln Co SO B">
+    <id type="talkgroup" protocol="APCO25" value="1345"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Canadian County" list="OKWIN" name="Canadian Co SO B">
+    <id type="talkgroup" protocol="APCO25" value="1359"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tribal Law Enforcement" list="OKWIN" name="CherokeeNationPD">
+    <id type="talkgroup" protocol="APCO25" value="1361"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Pottawatomie County" list="OKWIN" name="Pink Fire">
+    <id type="talkgroup" protocol="APCO25" value="1365"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Guthrie" list="OKWIN" name="Guthrie PD Tac">
+    <id type="talkgroup" protocol="APCO25" value="1367"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Guthrie" list="OKWIN" name="Guthrie PD CID">
+    <id type="talkgroup" protocol="APCO25" value="1369"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Guthrie" list="OKWIN" name="Guthrie Police 2">
+    <id type="talkgroup" protocol="APCO25" value="1371"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Guthrie" list="OKWIN" name="Guthrie FG 1">
+    <id type="talkgroup" protocol="APCO25" value="1373"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Guthrie" list="OKWIN" name="Guthrie FG 2">
+    <id type="talkgroup" protocol="APCO25" value="1375"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Collinsville" list="OKWIN" name="Collinsville PD">
+    <id type="talkgroup" protocol="APCO25" value="1379"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Collinsville" list="OKWIN" name="CollinsvilleFire">
+    <id type="talkgroup" protocol="APCO25" value="1381"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Logan County" list="OKWIN" name="Logan Co FG 1">
+    <id type="talkgroup" protocol="APCO25" value="1387"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Logan County" list="OKWIN" name="Logan Co FG 2">
+    <id type="talkgroup" protocol="APCO25" value="1389"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Department of Agriculture" list="OKWIN" name="Ag Investigators">
+    <id type="talkgroup" protocol="APCO25" value="1405"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Radio Maintenance" list="OKWIN" name="DPS RadioTec">
+    <id type="talkgroup" protocol="APCO25" value="1407"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="GRDA - Grand River Dam Authority" list="OKWIN" name="GRDA Line Maint">
+    <id type="talkgroup" protocol="APCO25" value="1409"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="GRDA - Grand River Dam Authority" list="OKWIN" name="GRDA SCADA">
+    <id type="talkgroup" protocol="APCO25" value="1411"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="GRDA - Grand River Dam Authority" list="OKWIN" name="GRDA Hydro Maint">
+    <id type="talkgroup" protocol="APCO25" value="1413"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Federal" list="OKWIN" name="ATF Tulsa">
+    <id type="talkgroup" protocol="APCO25" value="1419"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="McClain County" list="OKWIN" name="Payne Fire">
+    <id type="talkgroup" protocol="APCO25" value="1437"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Department of Wildlife" list="OKWIN" name="Game Rangers">
+    <id type="talkgroup" protocol="APCO25" value="1439"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Skiatook" list="OKWIN" name="Skiatook Police">
+    <id type="talkgroup" protocol="APCO25" value="1441"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Oklahoma National Guard" list="OKWIN" name="OK Nat Guard Tul">
+    <id type="talkgroup" protocol="APCO25" value="1459"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Oklahoma National Guard" list="OKWIN" name="OK Nat Guard OKC">
+    <id type="talkgroup" protocol="APCO25" value="1461"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Northeastern State University" list="OKWIN" name="NESU Police">
+    <id type="talkgroup" protocol="APCO25" value="1463"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Medical Examiner" list="OKWIN" name="State ME Secure">
+    <id type="talkgroup" protocol="APCO25" value="1483"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Sand Springs" list="OKWIN" name="SandSprings PD B">
+    <id type="talkgroup" protocol="APCO25" value="1485"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Sand Springs" list="OKWIN" name="SandSprings PD C">
+    <id type="talkgroup" protocol="APCO25" value="1487"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Osage County" list="OKWIN" name="CountryCorner FD">
+    <id type="talkgroup" protocol="APCO25" value="1493"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Johnston County" list="OKWIN" name="Johnston Co SO">
+    <id type="talkgroup" protocol="APCO25" value="1505"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Lincoln County" list="OKWIN" name="Meeker Police">
+    <id type="talkgroup" protocol="APCO25" value="1515"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Okmulgee County" list="OKWIN" name="Okmulgee Co SO">
+    <id type="talkgroup" protocol="APCO25" value="1521"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Creek County" list="OKWIN" name="Creek Co Highway">
+    <id type="talkgroup" protocol="APCO25" value="1525"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Creek County" list="OKWIN" name="Creek Co Highway">
+    <id type="talkgroup" protocol="APCO25" value="1527"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Ottawa County" list="OKWIN" name="Commerce Police">
+    <id type="talkgroup" protocol="APCO25" value="1537"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tribal Law Enforcement" list="OKWIN" name="EasternShawneePD">
+    <id type="talkgroup" protocol="APCO25" value="1539"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Ottawa County" list="OKWIN" name="Quapaw Police">
+    <id type="talkgroup" protocol="APCO25" value="1549"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tribal Law Enforcement" list="OKWIN" name="AbsnteeShawneePD">
+    <id type="talkgroup" protocol="APCO25" value="1551"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Miami" list="OKWIN" name="Miami Fire">
+    <id type="talkgroup" protocol="APCO25" value="1553"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Ottawa County" list="OKWIN" name="Ottawa Co EMS">
+    <id type="talkgroup" protocol="APCO25" value="1561"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Kellyville" list="OKWIN" name="Kellyville PD A">
+    <id type="talkgroup" protocol="APCO25" value="1563"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Kellyville" list="OKWIN" name="Kellyville PD B">
+    <id type="talkgroup" protocol="APCO25" value="1565"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Kellyville" list="OKWIN" name="Kellyville Fire">
+    <id type="talkgroup" protocol="APCO25" value="1567"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Coweta" list="OKWIN" name="Coweta Schools">
+    <id type="talkgroup" protocol="APCO25" value="1595"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="TulsaPD Explorer">
+    <id type="talkgroup" protocol="APCO25" value="1619"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County" list="OKWIN" name="Tulsa Co Jail A">
+    <id type="talkgroup" protocol="APCO25" value="1639"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County" list="OKWIN" name="Tulsa Co Jail B">
+    <id type="talkgroup" protocol="APCO25" value="1641"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County" list="OKWIN" name="Tulsa Co Jail">
+    <id type="talkgroup" protocol="APCO25" value="1643"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County" list="OKWIN" name="Tulsa Co Jail">
+    <id type="talkgroup" protocol="APCO25" value="1645"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="State Parks" list="OKWIN" name="StateParkRangers">
+    <id type="talkgroup" protocol="APCO25" value="1647"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Vinita" list="OKWIN" name="Vinita Fire">
+    <id type="talkgroup" protocol="APCO25" value="1649"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Craig County" list="OKWIN" name="Vinita EMS">
+    <id type="talkgroup" protocol="APCO25" value="1659"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Craig County" list="OKWIN" name="Big Cabin Fire">
+    <id type="talkgroup" protocol="APCO25" value="1661"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Ottawa County" list="OKWIN" name="Ottawa Co Fire">
+    <id type="talkgroup" protocol="APCO25" value="1665"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Ottawa County" list="OKWIN" name="Ottawa Co FG 1">
+    <id type="talkgroup" protocol="APCO25" value="1667"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Ottawa County" list="OKWIN" name="Ottawa Co FG 2">
+    <id type="talkgroup" protocol="APCO25" value="1669"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Ottawa County" list="OKWIN" name="Ottawa Co FG 3">
+    <id type="talkgroup" protocol="APCO25" value="1671"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Ottawa County" list="OKWIN" name="Ottawa Co FG 4">
+    <id type="talkgroup" protocol="APCO25" value="1673"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Cleveland County" list="OKWIN" name="Cleveland Co SO ">
+    <id type="talkgroup" protocol="APCO25" value="1681"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Cleveland County" list="OKWIN" name="ClevelandCo SO B">
+    <id type="talkgroup" protocol="APCO25" value="1683"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Cleveland County" list="OKWIN" name="ClevelandCoCourt">
+    <id type="talkgroup" protocol="APCO25" value="1685"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Cleveland County" list="OKWIN" name="ClevelandCo SO D">
+    <id type="talkgroup" protocol="APCO25" value="1687"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Cleveland County" list="OKWIN" name="ClevelandCo SO E">
+    <id type="talkgroup" protocol="APCO25" value="1689"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Cleveland County" list="OKWIN" name="ClevelandCo SO F">
+    <id type="talkgroup" protocol="APCO25" value="1691"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Cleveland County" list="OKWIN" name="ClevelandCo SO G">
+    <id type="talkgroup" protocol="APCO25" value="1693"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="BA PD Link">
+    <id type="talkgroup" protocol="APCO25" value="1697"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Logan County" list="OKWIN" name="Logan County EM">
+    <id type="talkgroup" protocol="APCO25" value="1711"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Creek County" list="OKWIN" name="Creek Co Sheriff">
+    <id type="talkgroup" protocol="APCO25" value="1713"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Creek County" list="OKWIN" name="CreekCoSheriff B">
+    <id type="talkgroup" protocol="APCO25" value="1715"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Creek County" list="OKWIN" name="CreekPD Dispatch">
+    <id type="talkgroup" protocol="APCO25" value="1717"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Noble" list="OKWIN" name="Noble Fire">
+    <id type="talkgroup" protocol="APCO25" value="1723"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Noble" list="OKWIN" name="Noble Police">
+    <id type="talkgroup" protocol="APCO25" value="1725"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Coweta" list="OKWIN" name="Coweta Police">
+    <id type="talkgroup" protocol="APCO25" value="1729"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Coweta" list="OKWIN" name="Coweta Police B">
+    <id type="talkgroup" protocol="APCO25" value="1731"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Coweta" list="OKWIN" name="Coweta Police D">
+    <id type="talkgroup" protocol="APCO25" value="1735"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Vinita" list="OKWIN" name="Vinita Police">
+    <id type="talkgroup" protocol="APCO25" value="1745"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Craig County" list="OKWIN" name="Craig Co Sheriff">
+    <id type="talkgroup" protocol="APCO25" value="1751"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Vinita" list="OKWIN" name="Vinita Police 2">
+    <id type="talkgroup" protocol="APCO25" value="1757"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Ottawa County" list="OKWIN" name="Ottawa Co SO">
+    <id type="talkgroup" protocol="APCO25" value="1761"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Ottawa County" list="OKWIN" name="Ottawa Co SO B">
+    <id type="talkgroup" protocol="APCO25" value="1763"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Ottawa County" list="OKWIN" name="Ottawa Co SO Car">
+    <id type="talkgroup" protocol="APCO25" value="1765"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Miami" list="OKWIN" name="Miami Police">
+    <id type="talkgroup" protocol="APCO25" value="1767"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Miami" list="OKWIN" name="Miami Police 2">
+    <id type="talkgroup" protocol="APCO25" value="1769"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Ottawa County" list="OKWIN" name="OttawaCoSOPatrol">
+    <id type="talkgroup" protocol="APCO25" value="1773"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Delaware County" list="OKWIN" name="Delaware Co SO">
+    <id type="talkgroup" protocol="APCO25" value="1777"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Owasso" list="OKWIN" name="OwassoPolice">
+    <id type="talkgroup" protocol="APCO25" value="1793"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Wagoner County" list="OKWIN" name="Oak Grove Fire">
+    <id type="talkgroup" protocol="APCO25" value="1809"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="SSM Health St Anthony EMS" list="OKWIN" name="MWC EMS 2">
+    <id type="talkgroup" protocol="APCO25" value="1811"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Muskogee" list="OKWIN" name="Muskogee Police">
+    <id type="talkgroup" protocol="APCO25" value="1825"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Wagoner County" list="OKWIN" name="Wagoner Co Fire">
+    <id type="talkgroup" protocol="APCO25" value="1841"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond" list="OKWIN" name="Edmond EM">
+    <id type="talkgroup" protocol="APCO25" value="1843"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond" list="OKWIN" name="Edmond Schools">
+    <id type="talkgroup" protocol="APCO25" value="1849"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond Public Works" list="OKWIN" name="Edmond Street">
+    <id type="talkgroup" protocol="APCO25" value="1853"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond Public Works" list="OKWIN" name="Edmond Traffic">
+    <id type="talkgroup" protocol="APCO25" value="1855"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Pryor" list="OKWIN" name="Pryor Police">
+    <id type="talkgroup" protocol="APCO25" value="1857"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Coweta" list="OKWIN" name="Coweta Fire">
+    <id type="talkgroup" protocol="APCO25" value="1873"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Coweta" list="OKWIN" name="Coweta Fire B">
+    <id type="talkgroup" protocol="APCO25" value="1875"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Medical Helicopters" list="OKWIN" name="MediFlight">
+    <id type="talkgroup" protocol="APCO25" value="1889"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="EMSA EMS West" list="OKWIN" name="EMSA West E M/A">
+    <id type="talkgroup" protocol="APCO25" value="1891"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="EMSA EMS" list="OKWIN" name="EMSA MutlAid">
+    <id type="talkgroup" protocol="APCO25" value="1893"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Shawnee" list="OKWIN" name="Shawnee EMS">
+    <id type="talkgroup" protocol="APCO25" value="1895"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="SSM Health St Anthony EMS" list="OKWIN" name="MWC EMS 1">
+    <id type="talkgroup" protocol="APCO25" value="1897"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Moore" list="OKWIN" name="Moore EMSSTAT">
+    <id type="talkgroup" protocol="APCO25" value="1899"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Medical Mutual Aid " list="OKWIN" name="SW MedMutual">
+    <id type="talkgroup" protocol="APCO25" value="1901"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Medical Mutual Aid " list="OKWIN" name="SE MedMutual">
+    <id type="talkgroup" protocol="APCO25" value="1903"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Medical Mutual Aid " list="OKWIN" name="NW MedMutual">
+    <id type="talkgroup" protocol="APCO25" value="1905"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Medical Mutual Aid " list="OKWIN" name="NE MedMutual">
+    <id type="talkgroup" protocol="APCO25" value="1907"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Mayes County" list="OKWIN" name="MESTA EMS">
+    <id type="talkgroup" protocol="APCO25" value="1909"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Muskogee County " list="OKWIN" name="MuskogeCoEMS">
+    <id type="talkgroup" protocol="APCO25" value="1911"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="TPD Mingo Valley">
+    <id type="talkgroup" protocol="APCO25" value="1921"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="TPD Riverside">
+    <id type="talkgroup" protocol="APCO25" value="1939"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Caddo County" list="OKWIN" name="Caddo County EM">
+    <id type="talkgroup" protocol="APCO25" value="1941"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="TPD Gilcrease">
+    <id type="talkgroup" protocol="APCO25" value="1953"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Logan County" list="OKWIN" name="Crescent Police">
+    <id type="talkgroup" protocol="APCO25" value="1959"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Logan County" list="OKWIN" name="Crescent PD 2">
+    <id type="talkgroup" protocol="APCO25" value="1961"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Lincoln County" list="OKWIN" name="Chandler Police">
+    <id type="talkgroup" protocol="APCO25" value="1965"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Police" list="OKWIN" name="Tulsa School PD">
+    <id type="talkgroup" protocol="APCO25" value="1969"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Airport" list="OKWIN" name="Tulsa Airport H">
+    <id type="talkgroup" protocol="APCO25" value="1981"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Statewide Mutual Aid " list="OKWIN" name="SMA 1-A Call">
+    <id type="talkgroup" protocol="APCO25" value="1985"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Statewide Mutual Aid " list="OKWIN" name="SMA 1-B">
+    <id type="talkgroup" protocol="APCO25" value="1987"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Statewide Mutual Aid " list="OKWIN" name="SMA 1-C">
+    <id type="talkgroup" protocol="APCO25" value="1989"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Statewide Mutual Aid " list="OKWIN" name="SMA 1-D">
+    <id type="talkgroup" protocol="APCO25" value="1991"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Statewide Mutual Aid " list="OKWIN" name="SMA 1-E">
+    <id type="talkgroup" protocol="APCO25" value="1993"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Statewide Mutual Aid " list="OKWIN" name="SMA 1-F">
+    <id type="talkgroup" protocol="APCO25" value="1995"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Statewide Mutual Aid " list="OKWIN" name="SMA 1-G">
+    <id type="talkgroup" protocol="APCO25" value="1997"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Statewide Mutual Aid " list="OKWIN" name="SMA 1-H">
+    <id type="talkgroup" protocol="APCO25" value="1999"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Statewide Mutual Aid " list="OKWIN" name="SMA 1-I">
+    <id type="talkgroup" protocol="APCO25" value="2001"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Statewide Mutual Aid " list="OKWIN" name="SMA 1-J">
+    <id type="talkgroup" protocol="APCO25" value="2003"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Statewide Mutual Aid " list="OKWIN" name="SMA 1-K">
+    <id type="talkgroup" protocol="APCO25" value="2005"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Statewide Mutual Aid " list="OKWIN" name="SMA 1-L">
+    <id type="talkgroup" protocol="APCO25" value="2007"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Statewide Mutual Aid " list="OKWIN" name="SMA 1-M">
+    <id type="talkgroup" protocol="APCO25" value="2009"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Statewide Mutual Aid " list="OKWIN" name="SMA 1-N">
+    <id type="talkgroup" protocol="APCO25" value="2011"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Statewide Mutual Aid " list="OKWIN" name="SMA 1-O">
+    <id type="talkgroup" protocol="APCO25" value="2013"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Statewide Mutual Aid " list="OKWIN" name="SMA Announce">
+    <id type="talkgroup" protocol="APCO25" value="2015"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Grove" list="OKWIN" name="Grove Police">
+    <id type="talkgroup" protocol="APCO25" value="2017"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Owasso" list="OKWIN" name="Owasso Water">
+    <id type="talkgroup" protocol="APCO25" value="2025"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Logan County" list="OKWIN" name="Cashion Fire">
+    <id type="talkgroup" protocol="APCO25" value="2027"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Northeast OK Regional Mutual Aid" list="OKWIN" name="NE OK RMA 2-G">
+    <id type="talkgroup" protocol="APCO25" value="2031"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Northeast OK Regional Mutual Aid" list="OKWIN" name="NE OK RMA 2-H">
+    <id type="talkgroup" protocol="APCO25" value="2033"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Northeast OK Regional Mutual Aid" list="OKWIN" name="NE OK RMA 2-I">
+    <id type="talkgroup" protocol="APCO25" value="2035"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Northeast OK Regional Mutual Aid" list="OKWIN" name="NE OK RMA 2-J">
+    <id type="talkgroup" protocol="APCO25" value="2037"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Northeast OK Regional Mutual Aid" list="OKWIN" name="NE OK RMA 2-K">
+    <id type="talkgroup" protocol="APCO25" value="2039"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Northeast OK Regional Mutual Aid" list="OKWIN" name="NE OK RMA 2-L">
+    <id type="talkgroup" protocol="APCO25" value="2041"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Northeast OK Regional Mutual Aid" list="OKWIN" name="NE OK RMA 2-M">
+    <id type="talkgroup" protocol="APCO25" value="2043"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Northeast OK Regional Mutual Aid" list="OKWIN" name="NE OK RMA 2-N">
+    <id type="talkgroup" protocol="APCO25" value="2045"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Northeast OK Regional Mutual Aid" list="OKWIN" name="NE OK RMA 2-O">
+    <id type="talkgroup" protocol="APCO25" value="2047"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Sand Springs" list="OKWIN" name="Sand Springs PD">
+    <id type="talkgroup" protocol="APCO25" value="2049"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Sand Springs" list="OKWIN" name="SandSprings Fire">
+    <id type="talkgroup" protocol="APCO25" value="2053"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Sand Springs" list="OKWIN" name="SandSprings FD B">
+    <id type="talkgroup" protocol="APCO25" value="2055"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond Public Works" list="OKWIN" name="Edmond Street D">
+    <id type="talkgroup" protocol="APCO25" value="2059"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond Public Works" list="OKWIN" name="Edmond Street E">
+    <id type="talkgroup" protocol="APCO25" value="2061"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Sapulpa" list="OKWIN" name="Sapulpa Police A">
+    <id type="talkgroup" protocol="APCO25" value="2081"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Sapulpa" list="OKWIN" name="Sapulpa Police B">
+    <id type="talkgroup" protocol="APCO25" value="2083"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Sapulpa" list="OKWIN" name="Sapulpa Fire A">
+    <id type="talkgroup" protocol="APCO25" value="2085"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Sapulpa" list="OKWIN" name="Sapulpa Fire B">
+    <id type="talkgroup" protocol="APCO25" value="2087"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond Public Works" list="OKWIN" name="Edmond Electric">
+    <id type="talkgroup" protocol="APCO25" value="2107"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond Public Works" list="OKWIN" name="Edmond Elec Sub">
+    <id type="talkgroup" protocol="APCO25" value="2109"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County" list="OKWIN" name="Tulsa Co SO Tac3">
+    <id type="talkgroup" protocol="APCO25" value="2115"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County" list="OKWIN" name="TulsaCourthouse1">
+    <id type="talkgroup" protocol="APCO25" value="2117"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County" list="OKWIN" name="TulsaCourthouse2">
+    <id type="talkgroup" protocol="APCO25" value="2119"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County" list="OKWIN" name="Tulsa Health A">
+    <id type="talkgroup" protocol="APCO25" value="2121"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County" list="OKWIN" name="Tulsa Health B">
+    <id type="talkgroup" protocol="APCO25" value="2123"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County" list="OKWIN" name="Tulsa Health C">
+    <id type="talkgroup" protocol="APCO25" value="2125"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County" list="OKWIN" name="Tulsa Co Roads 1">
+    <id type="talkgroup" protocol="APCO25" value="2129"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County" list="OKWIN" name="Tulsa Co Roads 2">
+    <id type="talkgroup" protocol="APCO25" value="2131"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County" list="OKWIN" name="Tulsa Co Roads 3">
+    <id type="talkgroup" protocol="APCO25" value="2133"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County" list="OKWIN" name="Tulsa Co Roads 4">
+    <id type="talkgroup" protocol="APCO25" value="2135"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop B (Tulsa)" list="OKWIN" name="OHP B-Comm">
+    <id type="talkgroup" protocol="APCO25" value="2145"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop B (Tulsa)" list="OKWIN" name="OHP B-Ops">
+    <id type="talkgroup" protocol="APCO25" value="2147"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop B (Tulsa)" list="OKWIN" name="OHP Tulsa Suprvs">
+    <id type="talkgroup" protocol="APCO25" value="2149"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop B (Tulsa)" list="OKWIN" name="OHP B Creek Ops">
+    <id type="talkgroup" protocol="APCO25" value="2151"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop B (Tulsa)" list="OKWIN" name="OHP B Turnpike 2">
+    <id type="talkgroup" protocol="APCO25" value="2153"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Turnpike Authority" list="OKWIN" name="OTA Creek Tpike">
+    <id type="talkgroup" protocol="APCO25" value="2155"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Statewide" list="OKWIN" name="OHP ERT">
+    <id type="talkgroup" protocol="APCO25" value="2157"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond" list="OKWIN" name="Edmond Animal">
+    <id type="talkgroup" protocol="APCO25" value="2177"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond" list="OKWIN" name="Edmond PD Lake">
+    <id type="talkgroup" protocol="APCO25" value="2181"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond" list="OKWIN" name="Edmond  PD Train">
+    <id type="talkgroup" protocol="APCO25" value="2183"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond" list="OKWIN" name="EdmondFD Train N">
+    <id type="talkgroup" protocol="APCO25" value="2199"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond" list="OKWIN" name="Edmond EM Common">
+    <id type="talkgroup" protocol="APCO25" value="2205"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Airport" list="OKWIN" name="Tulsa Airport A">
+    <id type="talkgroup" protocol="APCO25" value="2209"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Airport" list="OKWIN" name="Tulsa Airport B">
+    <id type="talkgroup" protocol="APCO25" value="2211"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Airport" list="OKWIN" name="Tulsa Airport C">
+    <id type="talkgroup" protocol="APCO25" value="2213"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Airport" list="OKWIN" name="Tulsa Airport D">
+    <id type="talkgroup" protocol="APCO25" value="2215"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Airport" list="OKWIN" name="Tulsa Airport E">
+    <id type="talkgroup" protocol="APCO25" value="2217"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Airport" list="OKWIN" name="Tulsa Airport PD">
+    <id type="talkgroup" protocol="APCO25" value="2219"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Airport" list="OKWIN" name="Tulsa Airport FD">
+    <id type="talkgroup" protocol="APCO25" value="2221"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Catoosa" list="OKWIN" name="Catoosa Police">
+    <id type="talkgroup" protocol="APCO25" value="2225"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Catoosa" list="OKWIN" name="Catoosa Police B">
+    <id type="talkgroup" protocol="APCO25" value="2227"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Catoosa" list="OKWIN" name="Catoosa Fire">
+    <id type="talkgroup" protocol="APCO25" value="2229"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond Public Works" list="OKWIN" name="EdmndElecRepair1">
+    <id type="talkgroup" protocol="APCO25" value="2231"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond Public Works" list="OKWIN" name="EdmndElecRepair2">
+    <id type="talkgroup" protocol="APCO25" value="2233"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond Public Works" list="OKWIN" name="EdmondElec Admin">
+    <id type="talkgroup" protocol="APCO25" value="2235"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County Rural Fire" list="OKWIN" name="Berryhill FD">
+    <id type="talkgroup" protocol="APCO25" value="2237"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa Fire">
+    <id type="talkgroup" protocol="APCO25" value="2241"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa Fire B ">
+    <id type="talkgroup" protocol="APCO25" value="2243"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa Fire Dist1">
+    <id type="talkgroup" protocol="APCO25" value="2245"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa Fire Dist2">
+    <id type="talkgroup" protocol="APCO25" value="2247"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa Fire Dist3">
+    <id type="talkgroup" protocol="APCO25" value="2249"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa Fire Dist4">
+    <id type="talkgroup" protocol="APCO25" value="2251"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa Fire Dist5">
+    <id type="talkgroup" protocol="APCO25" value="2253"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa FD HazMat">
+    <id type="talkgroup" protocol="APCO25" value="2255"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa FD Airport">
+    <id type="talkgroup" protocol="APCO25" value="2257"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa FD KnoxBox">
+    <id type="talkgroup" protocol="APCO25" value="2259"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa FD TaskFor">
+    <id type="talkgroup" protocol="APCO25" value="2261"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa FD Trainin">
+    <id type="talkgroup" protocol="APCO25" value="2263"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa Fire Staff">
+    <id type="talkgroup" protocol="APCO25" value="2265"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa Fire Admin">
+    <id type="talkgroup" protocol="APCO25" value="2267"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa Fire Code">
+    <id type="talkgroup" protocol="APCO25" value="2269"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa City Services" list="OKWIN" name="Tulsa Transit A">
+    <id type="talkgroup" protocol="APCO25" value="2273"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa City Services" list="OKWIN" name="Tulsa Transit B">
+    <id type="talkgroup" protocol="APCO25" value="2275"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa City Services" list="OKWIN" name="Tulsa Transit C">
+    <id type="talkgroup" protocol="APCO25" value="2277"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Colleges" list="OKWIN" name="Tulsa CC MetroPD">
+    <id type="talkgroup" protocol="APCO25" value="2279"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Colleges" list="OKWIN" name="Tulsa CC NE PD">
+    <id type="talkgroup" protocol="APCO25" value="2281"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Radio Maintenance" list="OKWIN" name="Radio Tech A">
+    <id type="talkgroup" protocol="APCO25" value="2293"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Colleges" list="OKWIN" name="OSU Tulsa Police">
+    <id type="talkgroup" protocol="APCO25" value="2295"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa FD Train A">
+    <id type="talkgroup" protocol="APCO25" value="2305"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa FD Train B">
+    <id type="talkgroup" protocol="APCO25" value="2307"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa FD Train C">
+    <id type="talkgroup" protocol="APCO25" value="2309"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa FD Train D">
+    <id type="talkgroup" protocol="APCO25" value="2311"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa FD Train E">
+    <id type="talkgroup" protocol="APCO25" value="2313"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa FD Train F">
+    <id type="talkgroup" protocol="APCO25" value="2315"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond Public Works" list="OKWIN" name="Arcadia Lake 1">
+    <id type="talkgroup" protocol="APCO25" value="2325"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond Public Works" list="OKWIN" name="Arcadia Lake 2">
+    <id type="talkgroup" protocol="APCO25" value="2327"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa FD Admin A">
+    <id type="talkgroup" protocol="APCO25" value="2329"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa FD Admin B">
+    <id type="talkgroup" protocol="APCO25" value="2331"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa Fire" list="OKWIN" name="Tulsa FD Admin C">
+    <id type="talkgroup" protocol="APCO25" value="2333"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Sperry" list="OKWIN" name="Sperry Police">
+    <id type="talkgroup" protocol="APCO25" value="2371"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Sperry" list="OKWIN" name="Sperry Fire">
+    <id type="talkgroup" protocol="APCO25" value="2373"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Oklahoma County" list="OKWIN" name="Oklahoma Co EM">
+    <id type="talkgroup" protocol="APCO25" value="2377"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County Emergency Management" list="OKWIN" name="TAEMA A">
+    <id type="talkgroup" protocol="APCO25" value="2379"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County Emergency Management" list="OKWIN" name="TAEMA B">
+    <id type="talkgroup" protocol="APCO25" value="2381"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County Emergency Management" list="OKWIN" name="TAEMA C">
+    <id type="talkgroup" protocol="APCO25" value="2383"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Northeast OK Regional Mutual Aid" list="OKWIN" name="NE OK RMA 2-A ">
+    <id type="talkgroup" protocol="APCO25" value="2387"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Northeast OK Regional Mutual Aid" list="OKWIN" name="NE OK RMA 2-B">
+    <id type="talkgroup" protocol="APCO25" value="2389"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Northeast OK Regional Mutual Aid" list="OKWIN" name="NE OK RMA 2-C">
+    <id type="talkgroup" protocol="APCO25" value="2391"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Northeast OK Regional Mutual Aid" list="OKWIN" name="NE OK RMA 2-D">
+    <id type="talkgroup" protocol="APCO25" value="2393"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Northeast OK Regional Mutual Aid" list="OKWIN" name="NE OK RMA 2-E">
+    <id type="talkgroup" protocol="APCO25" value="2395"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Northeast OK Regional Mutual Aid" list="OKWIN" name="NE OK RMA 2-F">
+    <id type="talkgroup" protocol="APCO25" value="2397"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Medical Helicopters" list="OKWIN" name="Life Flight">
+    <id type="talkgroup" protocol="APCO25" value="2401"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Medical Helicopters" list="OKWIN" name="Air Evac">
+    <id type="talkgroup" protocol="APCO25" value="2403"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa City Services" list="OKWIN" name="Tulsa Animal A">
+    <id type="talkgroup" protocol="APCO25" value="2407"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa City Services" list="OKWIN" name="Tulsa RiverParkA">
+    <id type="talkgroup" protocol="APCO25" value="2449"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa City Services" list="OKWIN" name="Tulsa RiverParkB">
+    <id type="talkgroup" protocol="APCO25" value="2451"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Radio Maintenance" list="OKWIN" name="Radio Tech B">
+    <id type="talkgroup" protocol="APCO25" value="2473"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Radio Maintenance" list="OKWIN" name="Radio Tech C">
+    <id type="talkgroup" protocol="APCO25" value="2475"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa City Services" list="OKWIN" name="TulsaEqupmntFuel">
+    <id type="talkgroup" protocol="APCO25" value="2485"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa City Services" list="OKWIN" name="Tulsa Streets">
+    <id type="talkgroup" protocol="APCO25" value="2503"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa City Services" list="OKWIN" name="Tulsa Traffic">
+    <id type="talkgroup" protocol="APCO25" value="2505"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa City Services" list="OKWIN" name="Tulsa PW Admin">
+    <id type="talkgroup" protocol="APCO25" value="2509"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa City Services" list="OKWIN" name="TulsaCustomerSvc">
+    <id type="talkgroup" protocol="APCO25" value="2511"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa City Services" list="OKWIN" name="Tulsa Refuse">
+    <id type="talkgroup" protocol="APCO25" value="2529"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa City Services" list="OKWIN" name="Tulsa WaterSuppy">
+    <id type="talkgroup" protocol="APCO25" value="2531"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa City Services" list="OKWIN" name="Tulsa Drainage">
+    <id type="talkgroup" protocol="APCO25" value="2533"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa City Services" list="OKWIN" name="Tulsa WaterLines">
+    <id type="talkgroup" protocol="APCO25" value="2537"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa City Services" list="OKWIN" name="TulsaUnderground">
+    <id type="talkgroup" protocol="APCO25" value="2543"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County" list="OKWIN" name="Tulsa Co Sheriff">
+    <id type="talkgroup" protocol="APCO25" value="2561"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County" list="OKWIN" name="Tulsa Co SO B">
+    <id type="talkgroup" protocol="APCO25" value="2563"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Owasso" list="OKWIN" name="Owasso Fire">
+    <id type="talkgroup" protocol="APCO25" value="2593"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop R (Capitol)" list="OKWIN" name="OHP Captiol-Comm">
+    <id type="talkgroup" protocol="APCO25" value="2601"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Statewide" list="OKWIN" name="OHP Gov Security">
+    <id type="talkgroup" protocol="APCO25" value="2603"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop A (Oklahoma City)" list="OKWIN" name="OHP AM-Comm">
+    <id type="talkgroup" protocol="APCO25" value="2605"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop A (Oklahoma City)" list="OKWIN" name="OHP AM-Ops">
+    <id type="talkgroup" protocol="APCO25" value="2607"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Statewide" list="OKWIN" name="OHP Com Center">
+    <id type="talkgroup" protocol="APCO25" value="2609"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop A (Oklahoma City)" list="OKWIN" name="OHP AR-Comm">
+    <id type="talkgroup" protocol="APCO25" value="2611"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop A (Oklahoma City)" list="OKWIN" name="OHP AR-Ops">
+    <id type="talkgroup" protocol="APCO25" value="2613"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop R (Capitol)" list="OKWIN" name="OHP Capitol-Ops">
+    <id type="talkgroup" protocol="APCO25" value="2615"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Statewide" list="OKWIN" name="OHP Event">
+    <id type="talkgroup" protocol="APCO25" value="2619"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Turnpike Authority" list="OKWIN" name="OTA Kilpatrick">
+    <id type="talkgroup" protocol="APCO25" value="2621"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Statewide" list="OKWIN" name="DPS  Event 1">
+    <id type="talkgroup" protocol="APCO25" value="2623"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Statewide" list="OKWIN" name="DPS Event 2">
+    <id type="talkgroup" protocol="APCO25" value="2625"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Statewide" list="OKWIN" name="OHP Supervisors">
+    <id type="talkgroup" protocol="APCO25" value="2627"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Radio Maintenance" list="OKWIN" name="DPS RadioTec">
+    <id type="talkgroup" protocol="APCO25" value="2629"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop A (Oklahoma City)" list="OKWIN" name="OHP Turner Com">
+    <id type="talkgroup" protocol="APCO25" value="2633"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop A (Oklahoma City)" list="OKWIN" name="OHP Turner Ops">
+    <id type="talkgroup" protocol="APCO25" value="2635"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Turnpike Authority" list="OKWIN" name="OTA Turner Tpike">
+    <id type="talkgroup" protocol="APCO25" value="2637"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop C (Muskogee)" list="OKWIN" name="OHP C-Comm">
+    <id type="talkgroup" protocol="APCO25" value="2641"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop C (Muskogee)" list="OKWIN" name="OHP C-Ops">
+    <id type="talkgroup" protocol="APCO25" value="2643"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop C (Muskogee)" list="OKWIN" name="OHP Muskogee Sup">
+    <id type="talkgroup" protocol="APCO25" value="2647"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop C (Muskogee)" list="OKWIN" name="OHPMskogeeTP Ops">
+    <id type="talkgroup" protocol="APCO25" value="2651"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop C (Muskogee)" list="OKWIN" name="OHP Muskogee TP2">
+    <id type="talkgroup" protocol="APCO25" value="2653"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Turnpike Authority" list="OKWIN" name="OTA Muskogee">
+    <id type="talkgroup" protocol="APCO25" value="2655"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Shawnee" list="OKWIN" name="Shawnee Police A">
+    <id type="talkgroup" protocol="APCO25" value="2659"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Prague" list="OKWIN" name="Prague REACT EMS">
+    <id type="talkgroup" protocol="APCO25" value="2665"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="State Emergency Management " list="OKWIN" name="State EM 1">
+    <id type="talkgroup" protocol="APCO25" value="2677"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="State Emergency Management " list="OKWIN" name="State EM 2">
+    <id type="talkgroup" protocol="APCO25" value="2679"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="State Emergency Management " list="OKWIN" name="State EM 3">
+    <id type="talkgroup" protocol="APCO25" value="2681"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="State Emergency Management " list="OKWIN" name="State EM 4">
+    <id type="talkgroup" protocol="APCO25" value="2683"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="State Emergency Management " list="OKWIN" name="State EM 5">
+    <id type="talkgroup" protocol="APCO25" value="2685"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="State Emergency Management " list="OKWIN" name="State EM 6">
+    <id type="talkgroup" protocol="APCO25" value="2687"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="State Emergency Management " list="OKWIN" name="State EM 7">
+    <id type="talkgroup" protocol="APCO25" value="2689"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="State Emergency Management " list="OKWIN" name="State EM All">
+    <id type="talkgroup" protocol="APCO25" value="2691"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Department of Health" list="OKWIN" name="State Health A">
+    <id type="talkgroup" protocol="APCO25" value="2693"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Department of Health" list="OKWIN" name="State Health">
+    <id type="talkgroup" protocol="APCO25" value="2695"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Central Oklahoma Regional Mutual Aid" list="OKWIN" name="CentralOK RMA 2A">
+    <id type="talkgroup" protocol="APCO25" value="2711"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Central Oklahoma Regional Mutual Aid" list="OKWIN" name="CentralOK RMA 2B">
+    <id type="talkgroup" protocol="APCO25" value="2713"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Central Oklahoma Regional Mutual Aid" list="OKWIN" name="CentralOK RMA 2C">
+    <id type="talkgroup" protocol="APCO25" value="2715"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Central Oklahoma Regional Mutual Aid" list="OKWIN" name="CentralOK RMA 2D">
+    <id type="talkgroup" protocol="APCO25" value="2717"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Central Oklahoma Regional Mutual Aid" list="OKWIN" name="CentralOK RMA 2E">
+    <id type="talkgroup" protocol="APCO25" value="2719"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Central Oklahoma Regional Mutual Aid" list="OKWIN" name="CentralOK RMA 2F">
+    <id type="talkgroup" protocol="APCO25" value="2721"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Central Oklahoma Regional Mutual Aid" list="OKWIN" name="CentralOK RMA 2G">
+    <id type="talkgroup" protocol="APCO25" value="2723"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Central Oklahoma Regional Mutual Aid" list="OKWIN" name="CentralOK RMA 2H">
+    <id type="talkgroup" protocol="APCO25" value="2725"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Central Oklahoma Regional Mutual Aid" list="OKWIN" name="CentralOK RMA 2I">
+    <id type="talkgroup" protocol="APCO25" value="2727"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Central Oklahoma Regional Mutual Aid" list="OKWIN" name="CentralOK RMA 2J">
+    <id type="talkgroup" protocol="APCO25" value="2729"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Central Oklahoma Regional Mutual Aid" list="OKWIN" name="CentralOK RMA 2K">
+    <id type="talkgroup" protocol="APCO25" value="2731"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Central Oklahoma Regional Mutual Aid" list="OKWIN" name="CentralOK RMA 2L">
+    <id type="talkgroup" protocol="APCO25" value="2733"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Central Oklahoma Regional Mutual Aid" list="OKWIN" name="CentralOK RMA 2M">
+    <id type="talkgroup" protocol="APCO25" value="2735"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Central Oklahoma Regional Mutual Aid" list="OKWIN" name="CentralOK RMA 2N">
+    <id type="talkgroup" protocol="APCO25" value="2737"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Central Oklahoma Regional Mutual Aid" list="OKWIN" name="CentralOK RMA 2O">
+    <id type="talkgroup" protocol="APCO25" value="2739"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Central Oklahoma Regional Mutual Aid" list="OKWIN" name="CentralOK RMAAll">
+    <id type="talkgroup" protocol="APCO25" value="2741"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop D (McAlester)" list="OKWIN" name="OHP D-Comm">
+    <id type="talkgroup" protocol="APCO25" value="2743"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop D (McAlester)" list="OKWIN" name="OHP D-Ops">
+    <id type="talkgroup" protocol="APCO25" value="2745"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop E (Durant)" list="OKWIN" name="OHP E-Comm">
+    <id type="talkgroup" protocol="APCO25" value="2749"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop E (Durant)" list="OKWIN" name="OHP E-Ops">
+    <id type="talkgroup" protocol="APCO25" value="2751"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop F (Ardmore)" list="OKWIN" name="OHP F-Comm">
+    <id type="talkgroup" protocol="APCO25" value="2755"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop F (Ardmore)" list="OKWIN" name="OHP F-Ops">
+    <id type="talkgroup" protocol="APCO25" value="2757"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Turnpike Authority" list="OKWIN" name="OTA Chickasaw">
+    <id type="talkgroup" protocol="APCO25" value="2759"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop G (Lawton)" list="OKWIN" name="OHP G-Comm">
+    <id type="talkgroup" protocol="APCO25" value="2761"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop G (Lawton)" list="OKWIN" name="OHP G-Ops">
+    <id type="talkgroup" protocol="APCO25" value="2763"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop H (Clinton" list="OKWIN" name="OHP H-Comm">
+    <id type="talkgroup" protocol="APCO25" value="2767"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop H (Clinton" list="OKWIN" name="OHP H-Ops">
+    <id type="talkgroup" protocol="APCO25" value="2769"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop I (Guymon)" list="OKWIN" name="OHP I-Comm">
+    <id type="talkgroup" protocol="APCO25" value="2773"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop I (Guymon)" list="OKWIN" name="OHP I-Ops">
+    <id type="talkgroup" protocol="APCO25" value="2775"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Statewide" list="OKWIN" name="OHP Motor OKC">
+    <id type="talkgroup" protocol="APCO25" value="2777"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop J (Enid)" list="OKWIN" name="OHP J-Comm">
+    <id type="talkgroup" protocol="APCO25" value="2779"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop J (Enid)" list="OKWIN" name="OHP J-Ops">
+    <id type="talkgroup" protocol="APCO25" value="2781"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Statewide" list="OKWIN" name="OHP Motor Tulsa">
+    <id type="talkgroup" protocol="APCO25" value="2783"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop K (Perry)" list="OKWIN" name="OHP K-Comm">
+    <id type="talkgroup" protocol="APCO25" value="2785"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop K (Perry)" list="OKWIN" name="OHP K-Ops">
+    <id type="talkgroup" protocol="APCO25" value="2787"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop L (Vinita)" list="OKWIN" name="OHP L- Comm">
+    <id type="talkgroup" protocol="APCO25" value="2791"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop L (Vinita)" list="OKWIN" name="OHP L-Ops">
+    <id type="talkgroup" protocol="APCO25" value="2793"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop M (Altus)" list="OKWIN" name="OHP M-Comm">
+    <id type="talkgroup" protocol="APCO25" value="2797"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop M (Altus)" list="OKWIN" name="OHP M-Ops">
+    <id type="talkgroup" protocol="APCO25" value="2799"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Statewide" list="OKWIN" name="OHP Lake Patrol">
+    <id type="talkgroup" protocol="APCO25" value="2801"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop G (Lawton)" list="OKWIN" name="OHP G Bailey Ops">
+    <id type="talkgroup" protocol="APCO25" value="2803"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop G (Lawton)" list="OKWIN" name="OHP G Bailey TP2">
+    <id type="talkgroup" protocol="APCO25" value="2805"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Turnpike Authority" list="OKWIN" name="OTA Bailey Tpike">
+    <id type="talkgroup" protocol="APCO25" value="2807"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Turnpike Authority" list="OKWIN" name="OTA Will Rogers">
+    <id type="talkgroup" protocol="APCO25" value="2813"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Turnpike Authority" list="OKWIN" name="OTA Cimarron">
+    <id type="talkgroup" protocol="APCO25" value="2821"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop D (McAlester)" list="OKWIN" name="OHP D Turnpike 1">
+    <id type="talkgroup" protocol="APCO25" value="2823"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="OK Highway Patrol -- Troop D (McAlester)" list="OKWIN" name="OHP D Turnpike 2">
+    <id type="talkgroup" protocol="APCO25" value="2825"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Department of Corrections" list="OKWIN" name="DOC Transports">
+    <id type="talkgroup" protocol="APCO25" value="2835"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Department of Corrections" list="OKWIN" name="DOC LARC">
+    <id type="talkgroup" protocol="APCO25" value="2837"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Department of Corrections" list="OKWIN" name="DOC JHCC">
+    <id type="talkgroup" protocol="APCO25" value="2839"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Department of Corrections" list="OKWIN" name="DOC MabelBassett">
+    <id type="talkgroup" protocol="APCO25" value="2843"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Department of Corrections" list="OKWIN" name="DOC Waters CCC">
+    <id type="talkgroup" protocol="APCO25" value="2849"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Federal" list="OKWIN" name="US Marshals">
+    <id type="talkgroup" protocol="APCO25" value="2986"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Owasso" list="OKWIN" name="Owasso Streets">
+    <id type="talkgroup" protocol="APCO25" value="2991"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Owasso" list="OKWIN" name="OwassoPubWks">
+    <id type="talkgroup" protocol="APCO25" value="2995"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Oklahoma City" list="OKWIN" name="OKC Fire Link">
+    <id type="talkgroup" protocol="APCO25" value="3007"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Oklahoma City" list="OKWIN" name="OKC Fire Link 2">
+    <id type="talkgroup" protocol="APCO25" value="3009"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Norman" list="OKWIN" name="Norman EMSSTAT 2">
+    <id type="talkgroup" protocol="APCO25" value="3015"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Cleveland County" list="OKWIN" name="Little Axe Fire ">
+    <id type="talkgroup" protocol="APCO25" value="3017"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Cleveland County" list="OKWIN" name="ClevelandCo Fire">
+    <id type="talkgroup" protocol="APCO25" value="3019"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Norman" list="OKWIN" name="OU Sports A/V">
+    <id type="talkgroup" protocol="APCO25" value="3021"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Oklahoma County" list="OKWIN" name="Oklahoma Co Fire">
+    <id type="talkgroup" protocol="APCO25" value="3023"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Creek County" list="OKWIN" name="Mounds Fire">
+    <id type="talkgroup" protocol="APCO25" value="3025"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Creek County" list="OKWIN" name="Depew Fire">
+    <id type="talkgroup" protocol="APCO25" value="3027"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Creek County" list="OKWIN" name="Oilton Fire">
+    <id type="talkgroup" protocol="APCO25" value="3033"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Creek County" list="OKWIN" name="Slick Fire">
+    <id type="talkgroup" protocol="APCO25" value="3035"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Norman" list="OKWIN" name="Norman Fire Tac1">
+    <id type="talkgroup" protocol="APCO25" value="3055"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Norman" list="OKWIN" name="Norman Fire">
+    <id type="talkgroup" protocol="APCO25" value="3057"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Norman" list="OKWIN" name="Norman Firegnd 6">
+    <id type="talkgroup" protocol="APCO25" value="3067"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Norman" list="OKWIN" name="OU Campus Police">
+    <id type="talkgroup" protocol="APCO25" value="3073"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Nichols Hills / The Village" list="OKWIN" name="NHills/Villge FD">
+    <id type="talkgroup" protocol="APCO25" value="3087"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Nichols Hills / The Village" list="OKWIN" name="NHills/VillgeFD2">
+    <id type="talkgroup" protocol="APCO25" value="3089"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Nichols Hills / The Village" list="OKWIN" name="NHills/VillgeFD3">
+    <id type="talkgroup" protocol="APCO25" value="3091"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Creek County" list="OKWIN" name="FreedomHill Fire">
+    <id type="talkgroup" protocol="APCO25" value="3095"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Drumright" list="OKWIN" name="Drumright Fire">
+    <id type="talkgroup" protocol="APCO25" value="3097"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Creek County" list="OKWIN" name="Shamrock Fire">
+    <id type="talkgroup" protocol="APCO25" value="3099"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond" list="OKWIN" name="Edmond Police">
+    <id type="talkgroup" protocol="APCO25" value="3103"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond" list="OKWIN" name="Edmond Police B">
+    <id type="talkgroup" protocol="APCO25" value="3105"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond" list="OKWIN" name="Edmond PD CID">
+    <id type="talkgroup" protocol="APCO25" value="3107"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond" list="OKWIN" name="Edmond PD Tac 1">
+    <id type="talkgroup" protocol="APCO25" value="3109"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond" list="OKWIN" name="Edmond PD Tac 2">
+    <id type="talkgroup" protocol="APCO25" value="3111"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond" list="OKWIN" name="Edmond PD Tac 3">
+    <id type="talkgroup" protocol="APCO25" value="3113"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond" list="OKWIN" name="Edmond PD Admin">
+    <id type="talkgroup" protocol="APCO25" value="3115"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond" list="OKWIN" name="Edmond Fire ">
+    <id type="talkgroup" protocol="APCO25" value="3119"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond" list="OKWIN" name="Edmond Firegrnd1">
+    <id type="talkgroup" protocol="APCO25" value="3121"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond" list="OKWIN" name="Edmond Firegrnd2">
+    <id type="talkgroup" protocol="APCO25" value="3123"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond" list="OKWIN" name="Edmond Firegrnd3">
+    <id type="talkgroup" protocol="APCO25" value="3125"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond" list="OKWIN" name="Edmond FD Prevnt">
+    <id type="talkgroup" protocol="APCO25" value="3127"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond" list="OKWIN" name="EdmondFD Train H">
+    <id type="talkgroup" protocol="APCO25" value="3129"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Oklahoma County" list="OKWIN" name="Oklahoma Co SO">
+    <id type="talkgroup" protocol="APCO25" value="3135"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Oklahoma County" list="OKWIN" name="Oklahoma Co SO B">
+    <id type="talkgroup" protocol="APCO25" value="3137"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Creek County" list="OKWIN" name="Silver City Fire">
+    <id type="talkgroup" protocol="APCO25" value="3143"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Midwest City" list="OKWIN" name="Midwest City FD">
+    <id type="talkgroup" protocol="APCO25" value="3167"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Turnpike Authority" list="OKWIN" name="OTA WlRogersToll">
+    <id type="talkgroup" protocol="APCO25" value="3169"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Turnpike Authority" list="OKWIN" name="OTA Turner Tolls">
+    <id type="talkgroup" protocol="APCO25" value="3173"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Turnpike Authority" list="OKWIN" name="OTA Creek Tolls">
+    <id type="talkgroup" protocol="APCO25" value="3179"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Pottawatomie County" list="OKWIN" name="Pott Co Sheriff">
+    <id type="talkgroup" protocol="APCO25" value="3183"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Pottawatomie County" list="OKWIN" name="Pott Co SO B">
+    <id type="talkgroup" protocol="APCO25" value="3185"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Pottawatomie County" list="OKWIN" name="Pott Co SO C">
+    <id type="talkgroup" protocol="APCO25" value="3187"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Turnpike Authority" list="OKWIN" name="OTA Bailey Tolls">
+    <id type="talkgroup" protocol="APCO25" value="3193"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Del City " list="OKWIN" name="Del City Fire">
+    <id type="talkgroup" protocol="APCO25" value="3199"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Wagoner County" list="OKWIN" name="WagonerCoSheriff">
+    <id type="talkgroup" protocol="APCO25" value="3211"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Moore" list="OKWIN" name="Moore Police">
+    <id type="talkgroup" protocol="APCO25" value="3215"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Moore" list="OKWIN" name="Moore Police 2">
+    <id type="talkgroup" protocol="APCO25" value="3217"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="McClain County" list="OKWIN" name="McClainCounty EM">
+    <id type="talkgroup" protocol="APCO25" value="3223"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="McClain County" list="OKWIN" name="Blanchard Police">
+    <id type="talkgroup" protocol="APCO25" value="3225"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Moore" list="OKWIN" name="Moore Fire">
+    <id type="talkgroup" protocol="APCO25" value="3231"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Moore" list="OKWIN" name="Moore Fire 2">
+    <id type="talkgroup" protocol="APCO25" value="3233"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Cleveland County" list="OKWIN" name="Fire Mutual Aid">
+    <id type="talkgroup" protocol="APCO25" value="3235"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Moore" list="OKWIN" name="MooreFD Training">
+    <id type="talkgroup" protocol="APCO25" value="3237"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Oklahoma City" list="OKWIN" name="OKC PD Santa Fe">
+    <id type="talkgroup" protocol="APCO25" value="3247"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Norman" list="OKWIN" name="Norman Police">
+    <id type="talkgroup" protocol="APCO25" value="3249"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Cleveland County" list="OKWIN" name="ClevelandCo Jail">
+    <id type="talkgroup" protocol="APCO25" value="3263"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Grady County" list="OKWIN" name="Bridge Creek FD">
+    <id type="talkgroup" protocol="APCO25" value="3265"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Oklahoma City" list="OKWIN" name="OKC PD Southwest">
+    <id type="talkgroup" protocol="APCO25" value="3279"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Norman" list="OKWIN" name="Norman Bus">
+    <id type="talkgroup" protocol="APCO25" value="3283"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Oklahoma City" list="OKWIN" name="OKC PD Hefner">
+    <id type="talkgroup" protocol="APCO25" value="3311"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Del City " list="OKWIN" name="Del City Police ">
+    <id type="talkgroup" protocol="APCO25" value="3327"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Oklahoma City" list="OKWIN" name="OKC PD Sprnglake">
+    <id type="talkgroup" protocol="APCO25" value="3343"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Norman" list="OKWIN" name="Norman HealthPlx">
+    <id type="talkgroup" protocol="APCO25" value="3347"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Lawton" list="OKWIN" name="Lawton Police">
+    <id type="talkgroup" protocol="APCO25" value="3371"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Oklahoma City" list="OKWIN" name="OKC PD Bricktown">
+    <id type="talkgroup" protocol="APCO25" value="3375"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Moore" list="OKWIN" name="Moore Hospital">
+    <id type="talkgroup" protocol="APCO25" value="3377"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Creek County" list="OKWIN" name="Creek Co EMS A">
+    <id type="talkgroup" protocol="APCO25" value="3385"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Deer Creek/Oak Cliff Fire" list="OKWIN" name="OakClif/DrCrk FD">
+    <id type="talkgroup" protocol="APCO25" value="3429"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Deer Creek/Oak Cliff Fire" list="OKWIN" name="OakClif/DrCrkFG1">
+    <id type="talkgroup" protocol="APCO25" value="3431"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Deer Creek/Oak Cliff Fire" list="OKWIN" name="OakClif/DrCrkFG2">
+    <id type="talkgroup" protocol="APCO25" value="3433"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Sand Springs" list="OKWIN" name="SandSpringsPubwk">
+    <id type="talkgroup" protocol="APCO25" value="3441"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Norman" list="OKWIN" name="Porter Hosp ER">
+    <id type="talkgroup" protocol="APCO25" value="3445"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Shawnee" list="OKWIN" name="ShawneeSaints ER">
+    <id type="talkgroup" protocol="APCO25" value="3449"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Lincoln County" list="OKWIN" name="Lincoln Co DEQ">
+    <id type="talkgroup" protocol="APCO25" value="3459"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Drumright" list="OKWIN" name="Drumright Police">
+    <id type="talkgroup" protocol="APCO25" value="3461"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Drumright" list="OKWIN" name="Drumright Fire">
+    <id type="talkgroup" protocol="APCO25" value="3463"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tribal Law Enforcement" list="OKWIN" name="Sac and Fox PD">
+    <id type="talkgroup" protocol="APCO25" value="3469"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Shawnee" list="OKWIN" name="Shawnee Police">
+    <id type="talkgroup" protocol="APCO25" value="3487"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Shawnee" list="OKWIN" name="Shawnee Police 2">
+    <id type="talkgroup" protocol="APCO25" value="3493"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Shawnee" list="OKWIN" name="Shawnee Animal">
+    <id type="talkgroup" protocol="APCO25" value="3495"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Shawnee" list="OKWIN" name="OBU Police">
+    <id type="talkgroup" protocol="APCO25" value="3503"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Shawnee" list="OKWIN" name="Shawnee Fire A">
+    <id type="talkgroup" protocol="APCO25" value="3511"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Shawnee" list="OKWIN" name="Shawnee Firegrnd">
+    <id type="talkgroup" protocol="APCO25" value="3515"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Pottawatomie County" list="OKWIN" name="Earlsboro Fire">
+    <id type="talkgroup" protocol="APCO25" value="3525"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Shawnee" list="OKWIN" name="ShawneeLineMaint">
+    <id type="talkgroup" protocol="APCO25" value="3541"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Shawnee" list="OKWIN" name="Shawnee Meter">
+    <id type="talkgroup" protocol="APCO25" value="3543"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Lincoln County" list="OKWIN" name="Lincoln Co EM">
+    <id type="talkgroup" protocol="APCO25" value="3567"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Pottawatomie County" list="OKWIN" name="Tecumseh Police">
+    <id type="talkgroup" protocol="APCO25" value="3585"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Nichols Hills / The Village" list="OKWIN" name="Nichols Hills PD">
+    <id type="talkgroup" protocol="APCO25" value="3617"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Nichols Hills / The Village" list="OKWIN" name="NicholsHills PD2">
+    <id type="talkgroup" protocol="APCO25" value="3619"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County Rural Fire" list="OKWIN" name="Keystone Fire">
+    <id type="talkgroup" protocol="APCO25" value="3621"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Nichols Hills / The Village" list="OKWIN" name="Village Police 1">
+    <id type="talkgroup" protocol="APCO25" value="3623"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Nichols Hills / The Village" list="OKWIN" name="Village Police 2">
+    <id type="talkgroup" protocol="APCO25" value="3625"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Cleveland County" list="OKWIN" name="SlaughtervilleFD">
+    <id type="talkgroup" protocol="APCO25" value="3627"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tribal Law Enforcement" list="OKWIN" name="Citizen Pott PD">
+    <id type="talkgroup" protocol="APCO25" value="3639"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Moore" list="OKWIN" name="Moore EM">
+    <id type="talkgroup" protocol="APCO25" value="3649"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Moore" list="OKWIN" name="Moore EM 2">
+    <id type="talkgroup" protocol="APCO25" value="3651"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Moore" list="OKWIN" name="Moore EM 3">
+    <id type="talkgroup" protocol="APCO25" value="3653"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Lawton" list="OKWIN" name="Lawton Police">
+    <id type="talkgroup" protocol="APCO25" value="3665"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Lawton" list="OKWIN" name="Lawton Police B">
+    <id type="talkgroup" protocol="APCO25" value="3667"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Lawton" list="OKWIN" name="Lawton Police C">
+    <id type="talkgroup" protocol="APCO25" value="3669"/>
+    <id type="priority" priority="-1"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Lawton" list="OKWIN" name="Lawton Police D">
+    <id type="talkgroup" protocol="APCO25" value="3671"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Lawton" list="OKWIN" name="Lawton Police E">
+    <id type="talkgroup" protocol="APCO25" value="3673"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Purcell" list="OKWIN" name="Purcell Fire">
+    <id type="talkgroup" protocol="APCO25" value="3683"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Comanche County" list="OKWIN" name="Comanche Co SO">
+    <id type="talkgroup" protocol="APCO25" value="3691"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Comanche County" list="OKWIN" name="Comanche Co SO B">
+    <id type="talkgroup" protocol="APCO25" value="3693"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Comanche County" list="OKWIN" name="Comanche Co SO C">
+    <id type="talkgroup" protocol="APCO25" value="3695"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Comanche County" list="OKWIN" name="Comanche Co SO D">
+    <id type="talkgroup" protocol="APCO25" value="3697"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Comanche County" list="OKWIN" name="Comanche Co SO E">
+    <id type="talkgroup" protocol="APCO25" value="3699"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Comanche County" list="OKWIN" name="Cameron Univ PD">
+    <id type="talkgroup" protocol="APCO25" value="3703"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Department of Agriculture" list="OKWIN" name="ForestryWildfire">
+    <id type="talkgroup" protocol="APCO25" value="3705"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tribal Law Enforcement" list="OKWIN" name="ComancheNationPD">
+    <id type="talkgroup" protocol="APCO25" value="3715"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Cleveland County" list="OKWIN" name="HealthPlxSecurty">
+    <id type="talkgroup" protocol="APCO25" value="3723"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Comanche County" list="OKWIN" name="Wildlife Refuge">
+    <id type="talkgroup" protocol="APCO25" value="3727"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Chickasha" list="OKWIN" name="Chickasha PD">
+    <id type="talkgroup" protocol="APCO25" value="3739"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Chickasha" list="OKWIN" name="Chickasha PD B">
+    <id type="talkgroup" protocol="APCO25" value="3741"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Grady County" list="OKWIN" name="Grady Co Sheriff">
+    <id type="talkgroup" protocol="APCO25" value="3751"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Grady County" list="OKWIN" name="Grady County SO2">
+    <id type="talkgroup" protocol="APCO25" value="3753"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Grady County" list="OKWIN" name="Grady County SO3">
+    <id type="talkgroup" protocol="APCO25" value="3755"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Grady County" list="OKWIN" name="Grady County EM">
+    <id type="talkgroup" protocol="APCO25" value="3757"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Cotton County" list="OKWIN" name="Cotton County SO">
+    <id type="talkgroup" protocol="APCO25" value="3763"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Cotton County" list="OKWIN" name="Walters Police">
+    <id type="talkgroup" protocol="APCO25" value="3767"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Grove" list="OKWIN" name="Grove Fire">
+    <id type="talkgroup" protocol="APCO25" value="3777"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tulsa County Rural Fire" list="OKWIN" name="Turley Fire">
+    <id type="talkgroup" protocol="APCO25" value="3789"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Grady County" list="OKWIN" name="Ninnekah Police">
+    <id type="talkgroup" protocol="APCO25" value="3815"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Logan County" list="OKWIN" name="Langston Univ PD">
+    <id type="talkgroup" protocol="APCO25" value="3817"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Canadian County" list="OKWIN" name="Canadian Co SO">
+    <id type="talkgroup" protocol="APCO25" value="3827"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Lexington" list="OKWIN" name="Lexington Police">
+    <id type="talkgroup" protocol="APCO25" value="3829"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Lawton" list="OKWIN" name="Lawton Fire">
+    <id type="talkgroup" protocol="APCO25" value="3835"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Lawton" list="OKWIN" name="LawtonFiregrnd 1">
+    <id type="talkgroup" protocol="APCO25" value="3837"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Lawton" list="OKWIN" name="LawtonFiregrnd 2">
+    <id type="talkgroup" protocol="APCO25" value="3839"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Comanche County" list="OKWIN" name="Comanche Co EMS">
+    <id type="talkgroup" protocol="APCO25" value="3841"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Purcell" list="OKWIN" name="Purcell Police">
+    <id type="talkgroup" protocol="APCO25" value="3857"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="McClain County" list="OKWIN" name="Wadley's EMS">
+    <id type="talkgroup" protocol="APCO25" value="3859"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Comanche County" list="OKWIN" name="Comanche Co Fire">
+    <id type="talkgroup" protocol="APCO25" value="3863"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Comanche County" list="OKWIN" name="Comanche Co FG 1">
+    <id type="talkgroup" protocol="APCO25" value="3865"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Comanche County" list="OKWIN" name="Comanche Co FG 2">
+    <id type="talkgroup" protocol="APCO25" value="3867"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Comanche County" list="OKWIN" name="Comanche Co FG 3">
+    <id type="talkgroup" protocol="APCO25" value="3869"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Chickasha" list="OKWIN" name="Chickasha Fire">
+    <id type="talkgroup" protocol="APCO25" value="3875"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Chickasha" list="OKWIN" name="Chickasha Fire B">
+    <id type="talkgroup" protocol="APCO25" value="3877"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Cotton County" list="OKWIN" name="Walters Fire">
+    <id type="talkgroup" protocol="APCO25" value="3887"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="McClain County" list="OKWIN" name="Goldsby Fire">
+    <id type="talkgroup" protocol="APCO25" value="3903"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Mannford" list="OKWIN" name="Mannford PD ">
+    <id type="talkgroup" protocol="APCO25" value="3907"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Mannford" list="OKWIN" name="Mannford Fire">
+    <id type="talkgroup" protocol="APCO25" value="3913"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Payne County" list="OKWIN" name="OSU Police">
+    <id type="talkgroup" protocol="APCO25" value="3915"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Medical Examiner" list="OKWIN" name="State ME Disp">
+    <id type="talkgroup" protocol="APCO25" value="3925"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="McClain County" list="OKWIN" name="McClain Co SO">
+    <id type="talkgroup" protocol="APCO25" value="3927"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Guthrie" list="OKWIN" name="Guthrie Police">
+    <id type="talkgroup" protocol="APCO25" value="3929"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Guthrie" list="OKWIN" name="Guthrie Fire">
+    <id type="talkgroup" protocol="APCO25" value="3931"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Lincoln County" list="OKWIN" name="Lincoln Co SO">
+    <id type="talkgroup" protocol="APCO25" value="3937"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Department of Corrections" list="OKWIN" name="DOC Fugitives">
+    <id type="talkgroup" protocol="APCO25" value="3941"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Logan County" list="OKWIN" name="Logan Co Sheriff">
+    <id type="talkgroup" protocol="APCO25" value="3943"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Muskogee County " list="OKWIN" name="MuskogeeCoSO">
+    <id type="talkgroup" protocol="APCO25" value="3949"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Muskogee" list="OKWIN" name="Muskogee Fire">
+    <id type="talkgroup" protocol="APCO25" value="3951"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Muskogee County " list="OKWIN" name="MuskogeeCoFD">
+    <id type="talkgroup" protocol="APCO25" value="3953"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Rogers County" list="OKWIN" name="Chelsea Police">
+    <id type="talkgroup" protocol="APCO25" value="3955"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Oklahoma County" list="OKWIN" name="OkCity/Co Health">
+    <id type="talkgroup" protocol="APCO25" value="3961"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Kiefer" list="OKWIN" name="Kiefer Police">
+    <id type="talkgroup" protocol="APCO25" value="3965"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Kiefer" list="OKWIN" name="Kiefer Fire">
+    <id type="talkgroup" protocol="APCO25" value="3967"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Edmond" list="OKWIN" name="UCO Campus PD">
+    <id type="talkgroup" protocol="APCO25" value="3973"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Rogers County" list="OKWIN" name="Rogers Co FD SW">
+    <id type="talkgroup" protocol="APCO25" value="3977"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Okmulgee County" list="OKWIN" name="Okmulgee Police">
+    <id type="talkgroup" protocol="APCO25" value="3979"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Bristow" list="OKWIN" name="Bristow Police">
+    <id type="talkgroup" protocol="APCO25" value="3985"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Bristow" list="OKWIN" name="Bristow Fire">
+    <id type="talkgroup" protocol="APCO25" value="3989"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Pryor" list="OKWIN" name="Pryor Fire">
+    <id type="talkgroup" protocol="APCO25" value="3999"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Prague" list="OKWIN" name="Prague Police">
+    <id type="talkgroup" protocol="APCO25" value="4001"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="GRDA - Grand River Dam Authority" list="OKWIN" name="GRDA  Police">
+    <id type="talkgroup" protocol="APCO25" value="4003"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Bureau of Indian Affairs" list="OKWIN" name="BIA Police NE">
+    <id type="talkgroup" protocol="APCO25" value="4009"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Bureau of Indian Affairs" list="OKWIN" name="BIA PD Central">
+    <id type="talkgroup" protocol="APCO25" value="4011"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Bureau of Indian Affairs" list="OKWIN" name="BIA Police SW">
+    <id type="talkgroup" protocol="APCO25" value="4013"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Tribal Law Enforcement" list="OKWIN" name="KickapooNationPD">
+    <id type="talkgroup" protocol="APCO25" value="4015"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Stroud " list="OKWIN" name="Stroud Police">
+    <id type="talkgroup" protocol="APCO25" value="4021"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Mayes County" list="OKWIN" name="OsagePlsView FD">
+    <id type="talkgroup" protocol="APCO25" value="4023"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Comanche County" list="OKWIN" name="Memorial EMS">
+    <id type="talkgroup" protocol="APCO25" value="4049"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Comanche County" list="OKWIN" name="Kirks Ambulance">
+    <id type="talkgroup" protocol="APCO25" value="4051"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Lawton" list="OKWIN" name="Lawton School PD">
+    <id type="talkgroup" protocol="APCO25" value="4055"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Comanche County" list="OKWIN" name="NE ComancheCoLaw">
+    <id type="talkgroup" protocol="APCO25" value="4085"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" group="Pottawatomie County" list="OKWIN" name="McLoud Fire">
+    <id type="talkgroup" protocol="APCO25" value="4091"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <alias color="0" list="OKWIN" name="Unknown">
+    <id type="talkgroupRange" protocol="APCO25" min="0" max="65535"/>
+    <id type="broadcastChannel" channel="scanner"/>
+    <id type="broadcastChannel" channel="local scanner"/>
+  </alias>
+  <stream type="RdioScannerConfiguration" system_id="1" api_key="33333b7a-ab85-45a4-a0d0-3ae5f39df241" xmlns:wstxns1="http://www.w3.org/2001/XMLSchema-instance" wstxns1:type="RDIOSCANNER_CALL" host="https://scanner.mcswain.dev/api/call-upload" delay="0" enabled="true" port="80" maximum_recording_age="600000" name="scanner">
+    <format>MP3</format>
+  </stream>
+  <channel system="Oklahoma Wireless Interoperability Network (OKWIN) (P25)" enabled="false" site="Cleveland" order="1" name="Control">
+    <alias_list_name>OKWIN</alias_list_name>
+    <source_configuration type="sourceConfigTunerMultipleFrequency" frequency_rotation_delay="400" source_type="TUNER_MULTIPLE_FREQUENCIES">
+      <frequency>860987500</frequency>
+      <frequency>859987500</frequency>
+    </source_configuration>
+    <event_log_configuration/>
+    <aux_decode_configuration/>
+    <decode_configuration type="decodeConfigP25Phase1" modulation="C4FM" traffic_channel_pool_size="3" ignore_data_calls="true"/>
+    <record_configuration/>
+  </channel>
+  <channel system="Oklahoma Wireless Interoperability Network (OKWIN) (P25)" enabled="true" site="Oklahoma" order="1" name="Control">
+    <alias_list_name>OKWIN</alias_list_name>
+    <source_configuration type="sourceConfigTuner" frequency="860937500" source_type="TUNER"/>
+    <event_log_configuration/>
+    <aux_decode_configuration/>
+    <decode_configuration type="decodeConfigP25Phase1" modulation="C4FM" traffic_channel_pool_size="10" ignore_data_calls="true"/>
+    <record_configuration/>
+  </channel>
+</playlist>
