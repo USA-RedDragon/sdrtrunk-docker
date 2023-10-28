@@ -5,6 +5,30 @@ sleep 5
 
 cd /home/sdrtrunk/app
 
+# if RDIO_SCANNER_URL is set, then we are using the RdioScanner
+# and we need to add it to the playlist
+
+if [ -n "$RDIO_SCANNER_URL" ]; then
+    xmlstarlet ed -P -S -L -s /playlist -t elem -n TMP -v "" \
+        -i //TMP -t attr -n "type" -v "RdioScannerConfiguration" \
+        -i //TMP -t attr -n "system_id" -v "1" \
+        -i //TMP -t attr -n "api_key" -v "$RDIO_SCANNER_APIKEY" \
+        -i //TMP -t attr -n "xmlns:wstxns1" -v "http://www.w3.org/2001/XMLSchema-instance" \
+        -i //TMP -t attr -n "wstxns1:type" -v "RDIOSCANNER_CALL" \
+        -i //TMP -t attr -n "host" -v "$RDIO_SCANNER_URL" \
+        -i //TMP -t attr -n "delay" -v "0" \
+        -i //TMP -t attr -n "enabled" -v "true" \
+        -i //TMP -t attr -n "port" -v "80" \
+        -i //TMP -t attr -n "maximum_recording_age" -v "600000" \
+        -i //TMP -t attr -n "name" -v "scanner" \
+        -r //TMP -v stream \
+        /home/sdrtrunk/SDRTrunk/playlist/default.xml
+
+    xmlstarlet ed -P -S -L -s /playlist/stream -t elem -n format -v "MP3" \
+        /home/sdrtrunk/SDRTrunk/playlist/default.xml
+fi
+
+
 exec doas -u sdrtrunk -- \
     bin/java \
         -Djava.awt.headless=true \

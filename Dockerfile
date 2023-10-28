@@ -11,6 +11,7 @@ RUN apt-get update && \
       unzip \
       s6 \
       doas \
+      xmlstarlet \
       libusb-1.0-0 \
       nginx && \
     apt-get clean && rm -rf /tmp/setup /var/lib/apt/lists/* /tmp/* /var/tmp/*
@@ -45,5 +46,8 @@ RUN curl -fSsL https://github.com/DSheirer/sdrtrunk/releases/download/${SDRTRUNK
 COPY rootfs /
 
 RUN chown -R sdrtrunk:sdrtrunk /home/sdrtrunk
+
+ENV RDIO_SCANNER_APIKEY=
+ENV RDIO_SCANNER_URL=
 
 CMD ["/bin/s6-svscan", "/etc/s6"]
