@@ -3433,9 +3433,6 @@
     <id type="broadcastChannel" channel="scanner"/>
     <id type="broadcastChannel" channel="local scanner"/>
   </alias>
-  <stream type="RdioScannerConfiguration" system_id="1" api_key="33333b7a-ab85-45a4-a0d0-3ae5f39df241" xmlns:wstxns1="http://www.w3.org/2001/XMLSchema-instance" wstxns1:type="RDIOSCANNER_CALL" host="https://scanner.mcswain.dev/api/call-upload" delay="0" enabled="true" port="80" maximum_recording_age="600000" name="scanner">
-    <format>MP3</format>
-  </stream>
   <channel system="Oklahoma Wireless Interoperability Network (OKWIN) (P25)" enabled="false" site="Cleveland" order="1" name="Control">
     <alias_list_name>OKWIN</alias_list_name>
     <source_configuration type="sourceConfigTunerMultipleFrequency" frequency_rotation_delay="400" source_type="TUNER_MULTIPLE_FREQUENCIES">
